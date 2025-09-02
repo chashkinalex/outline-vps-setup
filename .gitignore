@@ -1,0 +1,93 @@
+# Переменные окружения
+.env
+.env.local
+.env.production
+.env.staging
+
+# Логи
+*.log
+logs/
+log/
+
+# Резервные копии
+backups/
+backup/
+*.sql
+*.tar.gz
+*.zip
+*.backup
+
+# Временные файлы
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+
+# Системные файлы
+*.pid
+*.lock
+*.sock
+*.pid.lock
+
+# Node.js (если используется)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# База данных
+*.db
+*.sqlite
+*.sqlite3
+
+# SSL сертификаты
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Архивы
+*.7z
+*.rar
+*.gz
+*.bz2
+*.xz
+
+# Специфичные для проекта
+outline_data/
+postgres_data/
+redis_data/
+uploads/
+static/
