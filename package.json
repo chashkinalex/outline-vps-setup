@@ -1,0 +1,11 @@
+{
+  "name": "outline-vps-setup",
+  "version": "1.0.0",
+  "description": "Outline Wiki VPS deployment scripts and configuration",
+  "scripts": {
+    "start": "echo \"🚀 Outline VPS Setup - Выберите команду:\" && npm run help",
+    "help": "echo \"📚 Доступные команды:\" && echo \"  npm run deploy     - Полное развертывание на VPS\" && echo \"  npm run git:status - Статус Git\" && echo \"  npm run git:sync   - Синхронизация с GitHub\"",
+    "git:status": "echo \"📊 Статус Git...\" && git status",
+    "git:sync": "echo \"🔄 Синхронизация с GitHub...\" && git add . && git commit -m \"Update: $(date)\" && git push origin main"
+  }
+}
